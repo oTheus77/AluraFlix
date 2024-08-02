@@ -1,4 +1,4 @@
-   *{
+*{
     background: #000;
     margin: 0;
     padding: 0;
@@ -35,18 +35,31 @@ header{
     margin: 5%;
 }
 
-.imagens{
+img{
+    height: 200px;
+}
+
+.Thumbs{
     display: flex;
-    overflow-x:auto ;
+    overflow-x: auto;
     gap: 15px;
 }
 
-img{
-width: 100vh;
-height: 60vh;
-}
-
-.categoria {
+.categoria{
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.Thumbs img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.Thumbs img:hover{
+    opacity: 1.0;
+    border: 2px solid rgb(255, 0, 0);;
+}
+
+.categoria h2{
+    color: rgb(255, 255, 255);
 }
