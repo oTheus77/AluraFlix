@@ -1,0 +1,34 @@
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    color: aliceblue;
+}
+
+header{
+    background: #000;
+    width: 100%;
+    display: flex;
+}
+
+header{
+    border-bottom: solid 2px rgb(255, 0, 0);
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(255, 0, 0) ;
+}
+
+section{
+    background: black;
+    padding: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+ 
+.txt{
+    margin: 5%;
+}
